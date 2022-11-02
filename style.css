@@ -59,14 +59,20 @@ body
 .section-2-position
 {
     position: absolute;
-    left: 550px;
+    left: 470px;
+    font-size: 50px;
+}
 
-
+.section-3-position
+{
+    position: absolute;
+    left: 370px;
+    font-size: 60px;
 }
 
 .box1
 {
-   background-color: gray
+   background-color: gray;
 }
 
 .box2
@@ -77,4 +83,57 @@ body
 .box3
 {
    background-color: orchid
+}
+
+.section-3-div-size
+{
+    font-size: 50px;
+}
+
+.section-3-div-position
+{
+    
+    width: 50%;
+    margin: 5px;
+    padding: 15px;
+   
+}
+.div-width img2
+{
+    width: 50%;
+    margin: 10px; 
+    padding: 10px;
+}
+
+
+.application-picture
+{
+    height: 650px;
+    width: 400px;
+}
+.section-3
+{
+    margin: 5px;
+    padding: 5px;
+}
+.picture-background-1
+{
+    background-image: url(images/shapes/shape-3.png) ,url(images/shapes/shape-3.png),url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left top , left bottom , right center ;
+    background-size: 160px 160px , 140px 140px , 140px 140px;
+}
+.font-size
+{
+   font-size: 70px;
+}
+
+.section-3-button-design
+{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    
 }
