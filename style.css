@@ -29,7 +29,14 @@ body
 .div-width
 {
     width: 50%;
+    padding: 20px;
+    margin: 3px;
+    border-radius: 20px;
     
+}
+.div-width img
+{
+    width: 50%;
 }
 
 .picture
@@ -53,4 +60,21 @@ body
 {
     position: absolute;
     left: 550px;
+
+
+}
+
+.box1
+{
+   background-color: gray
+}
+
+.box2
+{
+   background-color: blue
+}
+
+.box3
+{
+   background-color: orchid
 }
